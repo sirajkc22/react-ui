@@ -1,0 +1,75 @@
+.App {
+  text-align: left;
+  margin-left: 1rem;
+  border-left-style:outset;
+  border-right-style:outset ;
+  border-bottom-style:ridge ;
+  border-bottom-width: 1px;
+  border-right-width:1px ;
+}
+.mb-3{
+    
+  text-align: left;
+  margin-left: 10rem;
+  border-radius: 2rem;
+  margin-right: 50%;
+  font-weight: 500;
+ 
+}
+.button{
+  text-align: left;
+  margin-left: 10rem;
+  margin-bottom: 4rem;
+}
+.heading{
+  text-align: left;
+  border-bottom-style:ridge;
+  
+ 
+}
+.listView {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.formField {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0 12;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
